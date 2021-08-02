@@ -1,0 +1,12 @@
+function swappingOfTwoVariables(num1,num2)
+{
+    console.log("value of num1 before swapping "+num1);
+    console.log("value of num2 before swapping "+num2);
+    let tempStorageVariable;
+    tempStorageVariable=num1;
+    num1=num2;
+    num2=tempStorageVariable;
+    console.log("value of num1 after swapping "+num1);
+    console.log("value of num2 after swapping "+num2);
+}
+swappingOfTwoVariables(34,78);
